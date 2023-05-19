@@ -47,19 +47,21 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
-              <Text as="span" type="heading1" color="brand1">
-                love
+            I am{" "}
+              <Text as="span" type="heading1" color="brand1"> 
+                totally hooked
               </Text>{" "}
-              creating and{" "}
+              on creating and{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                bringing projects to life,
               </Text>{" "}
-              projects
+              it's my passion!
+            </Text>
+            <Text type="heading2" color="brand2">
+              A little about me: 
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+            As a student at Kenzie Academy Brazil, I possess skills in front-end and back-end development. Although new to programming, I am highly motivated to learn and excel in group settings. Proficient in HTML, CSS, JavaScript, Python, SQL, and Node.js, I craft user-friendly interfaces and robust server-side applications. I eagerly embrace challenges and contribute to innovative projects with enthusiasm.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
